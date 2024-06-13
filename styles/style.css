@@ -1,10 +1,9 @@
 .layout {
-    padding-right: 15px;
-    padding-left: 30px;
     font-family: "GTEestiPro", arial, sans-serif;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    background-color: rgb(245, 247, 250);
 }
 
 .search {
@@ -15,4 +14,36 @@
     background-color: rgb(245, 247, 250);
     border: none;
     padding: 8px 40px;
+    margin: 20px auto;
+}
+
+.island {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0 15px;
+}
+
+.banner-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.navigationslider {
+    display: flex;
+    margin: 15px auto;
+}
+
+.navigationslider img {
+    max-width: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+.navigationslider-label {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
 }
