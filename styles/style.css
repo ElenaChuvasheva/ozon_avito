@@ -47,3 +47,23 @@
     width: 70%;
     margin: 0 auto;
 }
+
+.container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.container a {
+    display: block;
+}
+
+.container a img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.stickycontainer {
+    position: sticky;
+    bottom: 0;
+}
